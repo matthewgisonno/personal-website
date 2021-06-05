@@ -1,0 +1,64 @@
+html, body {
+    background:#293241;
+    width:100%;
+    height:100%;
+    padding:0;
+    margin:0;
+  }
+
+  .active, li.dropdown a.show {
+    color:#fff !important;
+    background-color: #EE6C4D !important;
+  }
+  .nav-link:hover {
+    background-color: #EE6C4D !important;
+    color: #fff !important;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .nav-link {padding-left: 10px !important;}
+    .navbar-collapse {margin-top:5px;}
+  }
+  #root {
+    height:100%;
+    width:100%;
+  }
+  #globalContainerOutter {
+    background:url('../imgs/bg_top_right.png') right top no-repeat fixed;
+    padding:0;
+    margin:0;
+    height:100%;
+    width:100%;
+  }
+  #globalContainerInner {
+    background:url('../imgs/bg_bottom_left.png') left bottom no-repeat fixed;
+    padding:0;
+    margin:0;
+    height:100%;
+    width:100%;
+  }
+  .navbarLogo {
+    margin: 0 20px 0 20px;
+  }
+  #mainContentContainerOutter {
+    width:100%;
+    padding:50px 100px;
+  }
+  #mainContentContainerInner {
+    background:#fff;
+    width:100%;
+  }
+  #imgHomeWebDev {
+    width:40%;
+    margin: 0 50px;
+  }
+  #imgHomeReactLogo {
+    width:100px;
+  }
+  #imgHomeAngularLogo {
+    height:100px;
+  }
+  .dropdown-menu {
+    border-radius: 0;
+    background:#EE6C4D;
+  }
