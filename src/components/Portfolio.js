@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import Github from './Github'
 
 export default class Portfolio extends Component {
     render() {
@@ -6,6 +7,8 @@ export default class Portfolio extends Component {
             <div>
                 <h2>Portfolio!</h2>
                 <p>Some content for the web pages...</p>
+                <h3>GitHub User Data:</h3>
+                <Github />
             </div>
         )
     }
